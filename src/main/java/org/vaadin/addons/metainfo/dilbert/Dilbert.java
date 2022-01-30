@@ -166,7 +166,7 @@ public class Dilbert {
 			}
 
 			// Add copyright and link to dilbert.com
-			Image dilbert = new Image("img/dilbert-logo.png", DILBERT_URL);
+			Image dilbert = new Image("dilbert/dilbert-logo.png", DILBERT_URL);
 			//dilbert.setHeight("48px");
 			dilbert.setHeight("3rem");
 			Style style = dilbert.getElement().getStyle();
